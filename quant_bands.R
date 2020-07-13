@@ -45,5 +45,5 @@ quant_bands <- function(vec,splits=F,nquantiles=10,max_splits=150){
   return(out)
 }
 
-
-quant_bands(iris$Sepal.Length)
+#example
+#quant_bands(iris$Sepal.Length)
